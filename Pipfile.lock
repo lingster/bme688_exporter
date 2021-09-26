@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a6f8f762240ce1089dc36fee7e6f8ea2a0aa404260c48cc5764e199b96ef8ce8"
+            "sha256": "12e734946cc4d7afb5eb116a378057acd616ea847b1e09daef06c6e82c70071a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,6 +23,15 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==3.4.1"
+        },
+        "bme680": {
+            "hashes": [
+                "sha256:287f9329d6befb88e091186502df87949ed796d5615419aa0ce92920752c852f",
+                "sha256:314023ef62b96aa93039a0aedb5fc2015f772cd25fc4333bec9f6b9304e9fbdf",
+                "sha256:60cfee6c5e871d1f1003b90606c79092cb26a2402830fdf347851c8e39948f70"
+            ],
+            "index": "pypi",
+            "version": "==1.1.1"
         },
         "click": {
             "hashes": [
@@ -67,6 +76,14 @@
                 "sha256:fd3b8905e21431ad306eeaf56644a68fdd621bf8f3097eff54d0f6bdf7262065"
             ],
             "version": "==0.2.0"
+        },
+        "loguru": {
+            "hashes": [
+                "sha256:b28e72ac7a98be3d28ad28570299a393dfcd32e5e3f6a353dec94675767b6319",
+                "sha256:f8087ac396b5ee5f67c963b495d615ebbceac2796379599820e324419d53667c"
+            ],
+            "index": "pypi",
+            "version": "==0.5.3"
         },
         "prometheus-client": {
             "hashes": [
@@ -144,6 +161,15 @@
                 "sha256:fe69978f3f768926cfa37b867e3843918e012cf83f680806599ddce33c2c68b0"
             ],
             "version": "==5.4.1"
+        },
+        "smbus": {
+            "hashes": [
+                "sha256:39923448455a41c6bbe823de62b191103dd711917056362d9e4b1d2c6ec0f06d",
+                "sha256:529f9effc383b6381534d1d845eaf1078bdd2d4e625c945b23cf274d5cf1c306",
+                "sha256:b467235734ae5c147c4ec0eff1afb9dba189d9d3cc086ed7e0d3dbf0ae485230",
+                "sha256:f96d345e0aa10053a8a4917634f1dc37ba1f656fa5cace7629b71777e90855c6"
+            ],
+            "version": "==1.1.post2"
         },
         "starlette": {
             "hashes": [

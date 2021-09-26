@@ -9,6 +9,8 @@ fastapi = "*"
 prometheus-client = "*"
 starlette = "*"
 uvicorn = {extras = ["standard"], version = "*"}
+bme680 = "*"
+loguru = "*"
 
 [dev-packages]
 
